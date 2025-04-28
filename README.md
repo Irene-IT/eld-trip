@@ -30,22 +30,23 @@ This project is useful as:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Irene-IT/eld-trip.git
+   
 Navigate to the project folder:
 
 
-cd eld-trip
-Open the index.html file in your browser
+cd eld-trip   
+Open the index.html file in your browser   
 or launch it using Live Server in VS Code.
 
 ❓ Where to Get Help
-You can reach out:
 
-by creating an Issue,
-
+You can reach out:   
+by creating an Issue,   
 or via my GitHub profile.
 
 👨‍💻 Who Maintains the Project
-This project was fully created and is maintained by me.
+
+This project was fully created and is maintained by me.   
 It is my first personal project, built to match a Figma design and to explore HTML, CSS, and basic JavaScript.
 
 
