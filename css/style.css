@@ -1,0 +1,495 @@
+body {
+    font-family: 'Hind', 'Montserrat';
+    font-style: normal;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    background: #64656C;
+    margin: 0 auto;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2em;
+    margin-right: 11%;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.8em;
+    padding-bottom: 1.687rem;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.625rem;
+    padding-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER-START */
+header {
+    position: relative;
+    height: 6.5em;
+}
+
+button,
+#button,
+a.button-orang {
+    width: 10.25rem;
+    height: 2.5rem;
+    padding: 0;
+    background: #E56D0B;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: 'Hind', 'Montserrat';
+    font-style: normal;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(30, 37, 40, 0.06);
+    cursor: pointer;
+}
+
+#button {
+    margin: 32px 68px 7px;
+}
+
+button:hover,
+a.button-orang:hover {
+    background: #D6660A;
+}
+
+.menu {
+    height: 6.5rem;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-eld {
+    align-self: start;
+    z-index: 5;
+}
+/* HEADER-END */
+
+/* ABOUT-START */
+main {
+    margin: 0 auto;
+}
+
+section.mobil {
+    background: #4a4b50;
+    max-width: 100vw;
+    min-height: 395px;
+    border-bottom: 1rem solid #45464A;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    box-sizing: border-box;
+    justify-content: center;
+    position: relative;
+    height: auto;
+}
+
+.bg-map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 1024px;
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+    background: url(../images/map1.png);
+    background-position: center;
+    mask-image: radial-gradient(49.9% 127.68% at 49.9% 0%, #FFFFFF 50%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.35;
+    mask-position: center;
+}
+
+.photo-mobil {
+    position: relative;
+    bottom: -16px;
+    width: 425px;
+    align-self: flex-end;
+    background-image: url(../images/Ellipse\ 292.svg);
+}
+
+.about {
+    padding-left: 10%;
+    padding-top: 2rem;
+}
+
+/* button-download-APP-START */
+.group {
+    width: 68%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+.button-download {
+    width: 100%;
+    height: 3.125rem;
+    padding-left: 3%;
+    font-size: 0.75rem;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    line-height: 1rem;
+}
+
+.button-download p {
+    padding: 0;
+    line-height: 1rem;
+}
+
+span.app {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+/* button-download-APP-END */
+
+.support {
+    padding-top: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.touch {
+    width: 68.5%;
+}
+
+.contacts {
+    display: flex;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 1.5rem;
+    flex-direction: column;
+}
+
+.contacts img {
+    margin-right: 2%;
+}
+
+.half {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.half.address {
+    justify-content: flex-start;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    max-width: 1024px;
+    min-height: 350px;
+    z-index: 5;
+}
+
+.row {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+/* button-download - STARD */
+img.logo-download {
+    padding-right: 0.7rem;
+}
+
+.group-download {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.gris {
+    width: 66%;
+}
+
+/* grid orange btn - START*/
+.orang {
+    width: 32%;
+    height: 312px;
+    display: grid;
+    grid-template-columns: repeat(2, 5fr);
+    grid-template-rows: 56px;
+    gap: 8px;
+}
+
+a.button-orang {
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: wait;
+}
+
+/* SELECT LAST 2 CHILDREN */
+.button-orang:nth-last-child(-n+2) {
+    grid-column: 1 / span 2;
+}
+
+/* rid orange btn - END*/
+
+.button-gris {
+    height: 3.5rem;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    padding: 0 5%;
+    background: rgba(74, 75, 80, 0.4)
+}
+
+.button-gris p {
+    padding: 0;
+    line-height: 20px;
+}
+
+/* button-download - END */
+
+
+/* FORMA - START */
+/* border-color befor write text */
+/* .input__field:is(:focus-visible, :valid) {
+    outline-color: rgba(229, 109, 11, 1);
+}  */
+/* border - color befor write text - end*/
+
+.regictration {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(6px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 10;
+
+    /*FORM visible-invisible on click - START,
+    important to leave it commented out*/
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    /*FORM visible-invisible on click - START*/
+}
+
+.form {
+    margin: auto;
+    width: 300px;
+    height: 368px;
+    background: #3F4044;
+    border-radius: 6px;
+    display: grid;
+    place-items: center;
+    align-content: space-between;
+}
+
+input {
+    appearance: none;
+    padding: 0 16px;
+    width: 236px;
+    height: 44px;
+    background: #5C5D64;
+    border-radius: 6px;
+    border: none;
+    outline: 0;
+    color: #C4C8D3;
+    font-size: 16px;
+}
+
+.legend {
+    position: relative;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+    width: 300px;
+    padding: 32px 0 20px;
+    margin-bottom: 32px;
+    background: #4A4B50;
+    border-radius: 6px 6px 0 0;
+}
+
+.form p {
+    color: #E56D0B;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.login {
+    margin: 24px 68px;
+}
+
+/* CHANGING THE ICON "EYE" WHEN CLICKING IT - START*/
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.eye {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.ri-eye-off-line::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/ojo.svg) 0 0 no-repeat;
+}
+
+.ri-eye-line::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/ojo-cerrado.svg) 0 0 no-repeat;
+}
+
+.input-password {
+    display: grid;
+    place-items: end;
+    position: relative;
+}
+
+/* CHANGING THE ICON "EYE" WHEN CLICKING IT - END*/
+
+/* FORMA - END */
+footer {
+    position: relative;
+    padding: 1rem 0;
+    margin-top: 5rem;
+    background-color: #4A4B50;
+    font-size: 0.56rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 1024px) {
+
+    header {
+        height: 20rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .menu {
+        height: 20rem;
+        width: 90%;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    h1 {
+        margin-right: 0;
+    }
+
+    .logo-eld {
+        align-self: center;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .half {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        padding-top: 2.5rem;
+    }
+
+    .photo-mobil {
+        bottom: -16px;
+        width: 100%;
+    }
+
+    section.mobil {
+        padding-top: 0;
+    }
+
+    .bg-map {
+        mask-image: radial-gradient(137.9% 100% at 50% 0%, #FFFFFF 50.24%, rgba(255, 255, 255, 0) 100%);
+        opacity: 0.3;
+    }
+
+    .support {
+        padding-top: 0;
+        padding-bottom: 1.5rem;
+    }
+
+    .touch {
+        width: 100%;
+    }
+
+    .orang {
+        width: 49%;
+    }
+
+    .gris {
+        width: 49%;
+    }
+
+    .group {
+        width: 90vw;
+    }
+
+    .button-download {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    footer {
+        margin-top: 1rem;
+    }
+}
